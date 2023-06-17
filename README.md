@@ -111,7 +111,13 @@ Here you go, no need to wait for browser support.
 `subgrid`
 > Set this class on a nested grid and the child grid will adapt its columns and gaps accordingly to it's parent grid gaps and the columns it takes up in the grid
 > (you still need to define your grid class)  
-> You can still change the gaps, e.g. different row gaps
+> You can still change the gaps, e.g. different row gaps  
+> Example:
+> ```
+> <div class="grid-content">
+>   <div class="grid__item--l subgrid grid-default"></div>
+> </div>
+> ```
 
 2 grid classes for subgrids (feel free to use them as normal grids)
 to adjust to content-grids spacers on the sites:  
