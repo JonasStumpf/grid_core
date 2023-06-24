@@ -27,9 +27,7 @@
 
 ## Documentation With Examples
 
-__Work in progress.....__
-
-Working on it, read this _readme_ in the meantime, contains everything you should need to know.
+For more details and examples look [here](https://gridcore.jonas-stumpf.de).
 
 
 ## Disclaimer
