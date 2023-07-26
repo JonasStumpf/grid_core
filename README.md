@@ -93,11 +93,11 @@ Creating your own grid: define `grid-template-columns` in your grid class and yo
 These classes allow you to position your items (horizontally) in your grid.  
 Without these, items line up normally.
 
-`grid__item--l`
+`.grid__item--l`
 > position your item from the left
 >> `--col-start: 1;` - the item starts on the far left
 
-`grid__item--r`
+`.grid__item--r`
 > position your item from the right
 >> `--col-start: 1;` - the item starts on the far right
 
@@ -106,7 +106,7 @@ Without these, items line up normally.
 Getting bored? Wanna be fancy?  
 Here you go, no need to wait for browser support.
 
-`subgrid`
+`.subgrid`
 > Set this class on a nested grid and the child grid will adapt its columns and gaps accordingly to it's parent grid gaps and the columns it takes up in the grid
 > (you still need to define your grid class)  
 > You can still change the gaps, e.g. different row gaps  
@@ -121,10 +121,10 @@ Here you go, no need to wait for browser support.
 to adjust to content-grids spacers on the sites:  
 _Spacer on both sides? use content-grid ...._
 
-`grid-content--l`
+`.grid-content--l`
 > spacer on the left
 
-`grid-content--r`
+`.grid-content--r`
 > spacer on the right
 
 ### Others
@@ -132,10 +132,10 @@ _Spacer on both sides? use content-grid ...._
 Nice to have, irrelevant for grid layouts.  
 _...might add more in the future like center all items or position item at the bottom_
 
-`grid__rows--equal-height`
+`.grid__rows--equal-height`
 > equally sized rows
 
-`grid__item--center`
+`.grid__item--center`
 > centers the item
 
 
