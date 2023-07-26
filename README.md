@@ -74,11 +74,11 @@ _`Note`: every class starting with __grid-__ gets the grid setup (custom propert
 
 Creating your own grid: define `grid-template-columns` in your grid class and you're ready to go.
 
-`default-grid`
+`.grid-default`
 > basic grid with equally sized columns, nothing special
 
 
-`content-grid`
+`.grid-content`
 > as the name suggest, this grid stays within a content width you set
 >> `--content-width` - the maximum with your content is supposed to take  
 >> `--content-padding` - the padding your content has (mobile)
