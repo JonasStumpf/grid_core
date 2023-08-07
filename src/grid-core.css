@@ -5,9 +5,6 @@
  * Copyright: 2023 Jonas Stumpf (https://github.com/JonasStumpf/grid_core)
  */
 
-/*
-MINIFY comments, add character (e.g. ° ♦ ♪) and replace it with a whitespace after minifying
-*/
 
 
 :root {
@@ -34,13 +31,12 @@ MINIFY comments, add character (e.g. ° ♦ ♪) and replace it with a whitespac
 }
 [class*="grid-"] > * {
     --col-span: 1;
-    --col-start: initial;
+    --col-start: auto;
     --row-span: 1;
-    --row-start: /* MINIFY */; /* Safari ... */
+    --row-start: auto;
 
-    --row__start-mod: var(--row__start) /;
     grid-column: span var(--col__span);
-    grid-row: var(--row__start-mod, /* MINIFY */) span var(--row__span, 1);
+    grid-row: var(--row-start) / span var(--row__span);
 }
 
 
@@ -57,12 +53,10 @@ MINIFY comments, add character (e.g. ° ♦ ♪) and replace it with a whitespac
 }
 
 .grid__item--l {
-    --col__start-mod: var(--col__start) /;
-    grid-column: var(--col__start-mod, /* MINIFY */) span var(--col__span, 1);
+    grid-column: var(--col__start) / span var(--col__span);
 }
 .grid__item--r {
-    --col__start-mod: / calc(var(--col__start) * -1);
-    grid-column: span var(--col__span, 1) var(--col__start-mod, /* MINIFY */);
+    grid-column: span var(--col__span) / calc(var(--col__start) * -1);
 }
 /* unset values so parents values will be taken, keep gaps changeable -> e.g. adjust row gaps */
 .subgrid {
