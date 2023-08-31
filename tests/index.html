@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="core.css">
+    <link rel="stylesheet" href="../src/grid-core.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>GridCore - Tests</title>
+</head>
+<body>
+
+   <main>
+
+        <section class="content-width grid-default ex-1">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </section>
+
+        <section class="grid-content ex-2">
+            <div class="item grid__item--l"></div>
+            <div class="item grid__item--r"></div>
+        </section>
+
+        <section class="content-width grid-default ex-3">
+            <div class="item"></div>
+
+            <div class="subgrid grid-default">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+        </section>
+
+        <section class="grid-content ex-4">
+            <div class="content-container grid__item--l subgrid grid-default">
+                <div class="item grid__item--l"></div>
+                <div class="item grid__item--l"></div>
+            </div>
+            <div class="grid__item--r subgrid grid-content--r">
+                <div class="item grid__item--l"></div>
+                <div class="item grid__item--l"></div>
+                <div class="item grid__item--l"></div>
+                <div class="item grid__item--l"></div>
+            </div>
+        </section>
+
+        <section class="content-width grid-default ex-5">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </section>
+
+        <section class="content-width grid-default ex-6">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </section>
+
+   </main> 
+   
+
+</body>
+</html>

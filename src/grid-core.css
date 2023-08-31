@@ -36,7 +36,7 @@
     --row-start: auto;
 
     grid-column: span var(--col__span);
-    grid-row: var(--row-start) / span var(--row__span);
+    grid-row: var(--row__start) / span var(--row__span);
 }
 
 
