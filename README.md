@@ -39,7 +39,7 @@ I use this myself so most cases should work, but don't forget to double check yo
 
 1. Add css to your page
 
-```
+```html
 <link rel="stylesheet" href="grid-core.min.css">
 ```
 
@@ -111,7 +111,7 @@ Here you go, no need to wait for browser support.
 > (you still need to define your grid class)  
 > You can still change the gaps, e.g. different row gaps  
 > Example:
-> ```
+> ```html
 > <div class="grid-content">
 >   <div class="grid__item--l subgrid grid-default"></div>
 > </div>
@@ -195,7 +195,7 @@ Available breakpoints:
 
 Copy&Paste example. For more examples look [here](#documentation-with-examples).
 
-```
+```html
 <style>
     * {box-sizing: border-box;}body{margin:0}
 
